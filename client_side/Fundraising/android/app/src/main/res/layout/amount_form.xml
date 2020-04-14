@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/askForAmount"/>
+    <EditText
+        android:id="@+id/inputAmount_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1000"/>
+    <TextView
+        android:id="@+id/askForPaymentMethod_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputAmount_edt"
+        android:text="@string/askForPaymentMethod"/>
+    <RadioButton
+        android:id="@+id/payByCard_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/askForPaymentMethod_txt"
+        android:text="@string/payByCard"/>
+    <Button
+        android:id="@+id/validAmount_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/confirmAmount"/>
+
+</RelativeLayout>

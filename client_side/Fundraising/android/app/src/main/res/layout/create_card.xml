@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4242424242424242"/>
+    <EditText
+        android:id="@+id/CVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardNumber"
+        android:text="123"/>
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CVV"
+        android:layout_alignParentLeft="true"
+        android:text="02"/>
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/month"
+        android:layout_alignParentRight="true"
+        android:text="19"/>
+    <Button
+        android:id="@+id/valider_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/year"
+        android:text="Valider"/>
+    <CheckBox android:id="@+id/saveCard_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_card"
+        android:layout_below="@id/valider_btn"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+https://rapidapi.com/dimashirokov/api/Stripe?endpoint=apiendpoint_a3e9fa10-f966-11e7-ab8c-5bc2af3b0126createAccount
+
+pk_test_Q4mqDHJenzlISLNLULm55q3b
+
+Secret key
+
+sk_test_XLk0yslE9DozPgtmXC4wWk8r
+
+create a bank account to get a token pour réaliser des paiments directement vers le compte bancaire et non le compte stripe
+
+Je sais:
+Créer une carte bancaire,
+Enregistrer une carte bancaire (Customer)
+Créer un compte Stripe 
+Effectuer un paiement au nom d'une personne vers un autre compte Stripe
+
+https://stripe.com/docs/connect/testing
+
+https://stripe.com/docs/quickstart
+https://stripe.com/docs/connect/account-tokens
+https://stripe.com/docs/connect/custom-accounts#create
+https://stripe.com/docs/connect/destination-charges
+
+https://stripe.com/docs/connect/quickstart#register-platform
+https://stripe.com/docs/connect/payouts#multiple-accounts
+
+
+Faire appel à du code Java dans React Native 
+http://techup.co.in/call-native-android-activity-from-react-native/
+https://www.smoothterminal.com/articles/using-android-native-modules
+https://facebook.github.io/react-native/docs/native-modules-android
+
+PCI COMPLIANT
+KYC
+Build.gradle android
+
+montant libre, suggéré, fixe
+masquer identité, participation, message
+
+c:\xampp\htdocs\fundraising\STRIPE\client_side\Fundraising>
+
+https://rnfirebase.io/docs/v5.x.x/auth/social-auth
+https://tipsi.github.io/tipsi-stripe/docs/token.html
+
+ASYNC/AWAIT PROMISES
+https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65

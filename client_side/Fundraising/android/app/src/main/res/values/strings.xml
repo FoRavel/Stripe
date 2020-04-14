@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fundraising</string>
+    <string name="cb_activity">Informations CB</string>
+    <string name="save_card">Mémoriser la carte</string>
+    <string name="amount">Formulaire montant</string>
+    <string name="askForAmount">Saisis le montant de ta participation :</string>
+    <string name="askForPaymentMethod">Choisis ton mode de paiement:</string>
+    <string name="payByCard">Carte de crédit ou débit</string>
+    <string name="confirmAmount">SUIVANT</string>
+    <string name="successfulPayment">Succès</string>
+</resources>
